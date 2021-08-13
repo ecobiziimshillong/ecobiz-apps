@@ -7,7 +7,7 @@ st.title('Swiggy Orders Environmental Cost Estimator')
 imap_host = 'imap.gmail.com'
 st.image(image)
 imap_user = st.text_input('Enter the Email ID')
-imap_pass = st.text_input('Enter the password')
+imap_pass = st.text_input('Enter the password', type = "password")
 
 
 if st.button('Enter to get analytics'):
